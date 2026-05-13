@@ -179,7 +179,7 @@ python placement_poles.py
 
 ## ✍️ Author
 
-**KUMAR Dev** — ENSAM Paris, Semester 9  
+**KUMAR Dev** — ENSAM Paris
 Supervisor: **M. GUILLARD Hervé**
 
 -----
