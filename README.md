@@ -153,7 +153,7 @@ Requires MATLAB + Control System Toolbox + Simulink; Python 3.10+ for the pole p
 
 ## Author & context
 
-**Dev Kumar** — Arts et Métiers ParisTech (ENSAM), Robust Control / Mechatronics, Semester 10 — 2026. Supervisor: **Hervé Guillard**.
+**Dev Kumar** — Arts et Métiers ParisTech (ENSAM) — 2026. Supervisor: **Hervé Guillard**.
 
 Full derivations, frequency-domain analysis, and the complete robustness protocol: [`docs/RST_Inverted_Pendulum_Report.pdf`](docs/RST_Inverted_Pendulum_Report.pdf).
 
