@@ -1,5 +1,16 @@
 clear; clc; close all;
 
+% Resolve the Simulink model relative to this script so the pipeline also
+% works when MATLAB is launched from outside the repository directory.
+scriptDirectory = fileparts(mfilename('fullpath'));
+modelName = 'rst_closed_loop';
+modelPath = fullfile(scriptDirectory, [modelName '.mdl']);
+if ~isfile(modelPath)
+    error('RST:MissingModel', ...
+        'Expected Simulink model not found: %s', modelPath);
+end
+addpath(scriptDirectory);
+
 %% ============================================================
 %  INITIAL RST : beta = 1, gamma = 10
 %  ============================================================
@@ -91,7 +102,7 @@ hold off;
 
 %% Simulink simulation — initial RST
 H = poly([-2 -2 -1 -1]);
-sim('simu_rst_pendule')
+sim(modelName)
 
 figure('Name', 'Time response initial RST', 'NumberTitle', 'off');
 subplot(4,1,1);
@@ -221,7 +232,7 @@ S  = S_o;
 T  = T_o;
 H  = poly([-2 -2 -1 -1]);
 
-sim('simu_rst_pendule')
+sim(modelName)
 
 figure('Name', 'Time response optimised RST', 'NumberTitle', 'off');
 subplot(4,1,1);
@@ -287,7 +298,7 @@ for k = 1:length(L_values)
     re_k = squeeze(re_k); im_k = squeeze(im_k);
     Mm_k = min(sqrt((re_k+1).^2 + im_k.^2));
 
-    sim('simu_rst_pendule')
+    sim(modelName)
     results_t{k}   = t;
     results_ymc{k} = ymc;
     results_ym{k}  = ym;
