@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "RST Polynomial Control of an Inverted Pendulum"
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Dev
+repository-code: "https://github.com/devkumar-projects/RST-controller-for-an-inverted-pendulum"
+license: MIT
