@@ -163,6 +163,10 @@ Full derivations, frequency-domain analysis, and the complete robustness protoco
 
 **Related projects** — the same pole-placement / state-space design toolbox applied elsewhere: [twin-rotor helicopter (integral state feedback + LQR)](https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback) · [INTARSO target robot (PID as state feedback on hardware)](https://github.com/devkumar-projects/INTARSO-Shooting-Range-Target-Robot).
 
+## Citation and research metadata
+
+To cite this software, use the metadata in [`CITATION.cff`](CITATION.cff). The repository also includes machine-readable research software metadata in [`codemeta.json`](codemeta.json) and author information in [`AUTHORS.md`](AUTHORS.md).
+
 ## References
 
 - Åström, K.J. & Wittenmark, B. — *Computer-Controlled Systems: Theory and Design*

@@ -1,0 +1,27 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "RST Polynomial Control of an Inverted Pendulum",
+  "description": "MATLAB and Simulink code for RST polynomial control synthesis and evaluation of an inverted pendulum, with a Python pole-placement visualization. The study uses a reduced linear model and simulation; it does not establish nonlinear stability or hardware validation.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Dev",
+      "familyName": "Kumar",
+      "@id": "https://orcid.org/0009-0008-2279-9163"
+    }
+  ],
+  "codeRepository": "https://github.com/devkumar-projects/RST-controller-for-an-inverted-pendulum",
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": [
+    "MATLAB",
+    "Python"
+  ],
+  "keywords": [
+    "inverted pendulum",
+    "RST control",
+    "pole placement",
+    "robust control",
+    "control systems"
+  ]
+}
