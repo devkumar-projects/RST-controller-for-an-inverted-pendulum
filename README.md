@@ -151,6 +151,10 @@ Requires MATLAB + Control System Toolbox + Simulink; Python 3.10+ for the pole p
 
 > Note: display equations in this README are pre-rendered PNGs (light/dark variants) so they display correctly everywhere, including the GitHub mobile app, which does not render `$$` LaTeX.
 
+## Interactive notebook on Kaggle
+
+[RST Pole Placement: Pendulum in Python](https://www.kaggle.com/code/devkumarkaggle/rst-pole-placement-pendulum-in-python) translates the feedback-polynomial calculation into NumPy and illustrates pole placement on the reduced linear model. It does not reproduce the Simulink or hardware experiments.
+
 ## Author & context
 
 **Dev Kumar** — Arts et Métiers ParisTech (ENSAM) — 2026. Supervisor: **Hervé Guillard**.
@@ -159,11 +163,9 @@ Full derivations, frequency-domain analysis, and the complete robustness protoco
 
 **Related projects** — the same pole-placement / state-space design toolbox applied elsewhere: [twin-rotor helicopter (integral state feedback + LQR)](https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback) · [INTARSO target robot (PID as state feedback on hardware)](https://github.com/devkumar-projects/INTARSO-Shooting-Range-Target-Robot).
 
-## Citation
+## Citation and research metadata
 
-If you use this project in your work, please cite it using the metadata in
-[`CITATION.cff`](CITATION.cff). GitHub also provides a citation link in the
-repository sidebar.
+To cite this software, use the metadata in [`CITATION.cff`](CITATION.cff). The repository also includes machine-readable research software metadata in [`codemeta.json`](codemeta.json) and author information in [`AUTHORS.md`](AUTHORS.md).
 
 ## References
 
