@@ -151,6 +151,10 @@ Requires MATLAB + Control System Toolbox + Simulink; Python 3.10+ for the pole p
 
 > Note: display equations in this README are pre-rendered PNGs (light/dark variants) so they display correctly everywhere, including the GitHub mobile app, which does not render `$$` LaTeX.
 
+## Interactive notebook on Kaggle
+
+[RST Pole Placement: Pendulum in Python](https://www.kaggle.com/code/devkumarkaggle/rst-pole-placement-pendulum-in-python) translates the feedback-polynomial calculation into NumPy and illustrates pole placement on the reduced linear model. It does not reproduce the Simulink or hardware experiments.
+
 ## Author & context
 
 **Dev Kumar** — Arts et Métiers ParisTech (ENSAM) — 2026. Supervisor: **Hervé Guillard**.
