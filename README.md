@@ -171,3 +171,8 @@ Full derivations, frequency-domain analysis, and the complete robustness protoco
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+
+## Interactive engineering companion
+
+The [Engineering Workbench / Control Lab](https://huggingface.co/spaces/devkumarhf/Engineering-Workbench) is an independent browser translation of the nominal reduced-model RST synthesis: R, S and T, the Bézout residual, assigned poles and closed-loop frequency response. Each slider change re-synthesizes the nominal controller; it is not a fixed-controller robustness test or a reproduction of the full Simulink model. The existing [Kaggle notebook](https://www.kaggle.com/code/devkumarkaggle/rst-pole-placement-pendulum-in-python) now also computes the feedforward polynomial and checks DC/reference-frequency tracking while retaining its original feedback analysis and four-length sweep.
