@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this repository and specify the commit you used."
+type: software
+title: "RST Polynomial Control of an Inverted Pendulum"
+authors:
+  - family-names: Kumar
+    given-names: Dev
+    orcid: "https://orcid.org/0009-0008-2279-9163"
+repository-code: "https://github.com/devkumar-projects/RST-controller-for-an-inverted-pendulum"
+url: "https://github.com/devkumar-projects/RST-controller-for-an-inverted-pendulum"
+license: MIT
+abstract: "MATLAB/Simulink RST controller synthesis and analysis for a reduced linear inverted-pendulum model, with pole-placement visualization. Numerical validation is distinguished from nonlinear and physical-plant validation."
+keywords:
+  - control systems
+  - RST
+  - inverted pendulum
+  - polynomial control
+  - reproducible research
