@@ -129,8 +129,6 @@ python/
 └── pole_placement_plot.py      Complex-plane pole-placement figure (matplotlib)
 
 docs/
-├── RST_Inverted_Pendulum_Report.pdf   Full 37-page report (modeling, synthesis, evaluation,
-│                                        optimization, robustness study)
 ├── images/                            Figures used in this README
 └── equations/                         Pre-rendered equations (light/dark variants)
 ```
@@ -159,9 +157,9 @@ Requires MATLAB + Control System Toolbox + Simulink; Python 3.10+ for the pole p
 
 **Dev Kumar** — Arts et Métiers ParisTech (ENSAM) — 2026. Supervisor: **Hervé Guillard**.
 
-Full derivations, frequency-domain analysis, and the complete robustness protocol: [`docs/RST_Inverted_Pendulum_Report.pdf`](docs/RST_Inverted_Pendulum_Report.pdf).
+Full derivations, frequency-domain analysis, and the complete robustness protocol: [the full research report](https://dev-kumar.com/reports/rst-inverted-pendulum.pdf).
 
-**Related projects** — the same pole-placement / state-space design toolbox applied elsewhere: [twin-rotor helicopter (integral state feedback + LQR)](https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback) · [INTARSO target robot (PID as state feedback on hardware)](https://github.com/devkumar-projects/INTARSO-Shooting-Range-Target-Robot).
+**Related projects** — the same pole-placement / state-space design toolbox applied elsewhere: [twin-rotor helicopter (integral state feedback + LQR)](https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback).
 
 ## References
 
@@ -176,3 +174,5 @@ MIT — see [LICENSE](LICENSE).
 ## Interactive engineering companion
 
 The [Engineering Workbench / Control Lab](https://huggingface.co/spaces/devkumarhf/Engineering-Workbench) is an independent browser translation of the nominal reduced-model RST synthesis: R, S and T, the Bézout residual, assigned poles and closed-loop frequency response. Each slider change re-synthesizes the nominal controller; it is not a fixed-controller robustness test or a reproduction of the full Simulink model. The existing [Kaggle notebook](https://www.kaggle.com/code/devkumarkaggle/rst-pole-placement-pendulum-in-python) now also computes the feedforward polynomial and checks DC/reference-frequency tracking while retaining its original feedback analysis and four-length sweep.
+
+The linked manuscript is hosted on the portfolio. Its authors and distribution terms are stated in the PDF; the software licence does not relicense the manuscript.
